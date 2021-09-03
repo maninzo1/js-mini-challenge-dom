@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="data.js"></script>
-  <script src="index.js"></script>
+  <script defer src="data.js"></script>
+  <script defer src="index.js"></script>
   <style>
     img {
       height: 300px;
@@ -14,8 +14,39 @@
 </head>
 <body>
   <h1 id="header">Welcome to Ian's Liverpool FC Fan Club</h1>
+
+    
   <div class="player-container">
-    <!--  -->
+    <div class="player" data-number= '11'>
+      <h3>
+        {"Mo Salah"} (<em>{player nickname}</em>)
+      </h3>
+      <img src="{player image}" alt="{player name}">
+    </div>
+    <div class="player" data-number="9">
+      <h3>
+        {"Roberto Firmino"} (<em>{player nickname}</em>)
+      </h3>
+      <img src="{player image}" alt="{player name}">
+    </div>
+    <div class="player" data-number="66">
+      <h3>
+        {"Trent Alexander-Arnold"} (<em>{player nickname}</em>)
+      </h3>
+      <img src="{player image}" alt="{player name}">
+    </div>
+    <div class="player" data-number="14">
+      <h3>
+        {"Jordan Henderson"} (<em>{player nickname}</em>)
+      </h3>
+      <img src="{player image}" alt="{player name}">
+    </div>
+    <div class="player" data-number="7">
+      <h3>
+        {"Raheem Sterling"} (<em>{player nickname}</em>)
+      </h3>
+      <img src="{player image}" alt="{player name}">
+    </div>
   </div>
 </body>
 </html>
